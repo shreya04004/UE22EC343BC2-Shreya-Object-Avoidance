@@ -1,0 +1,9 @@
+/home/shreya/ros2_ws/build/object_avoidance/CMakeFiles/uninstall.dir
+/home/shreya/ros2_ws/build/object_avoidance/CMakeFiles/object_avoidance_uninstall.dir
+/home/shreya/ros2_ws/build/object_avoidance/CMakeFiles/test.dir
+/home/shreya/ros2_ws/build/object_avoidance/CMakeFiles/edit_cache.dir
+/home/shreya/ros2_ws/build/object_avoidance/CMakeFiles/rebuild_cache.dir
+/home/shreya/ros2_ws/build/object_avoidance/CMakeFiles/list_install_components.dir
+/home/shreya/ros2_ws/build/object_avoidance/CMakeFiles/install.dir
+/home/shreya/ros2_ws/build/object_avoidance/CMakeFiles/install/local.dir
+/home/shreya/ros2_ws/build/object_avoidance/CMakeFiles/install/strip.dir

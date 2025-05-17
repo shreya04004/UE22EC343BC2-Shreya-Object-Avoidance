@@ -1,0 +1,3 @@
+[console_scripts]
+sim_avoid = sim_avoidance.sim_publisher:main
+

@@ -1,0 +1,32 @@
+running develop
+Removing /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim-avoidance.egg-link (link to .)
+running egg_info
+writing ../../build/sim_avoidance/sim_avoidance.egg-info/PKG-INFO
+writing dependency_links to ../../build/sim_avoidance/sim_avoidance.egg-info/dependency_links.txt
+writing entry points to ../../build/sim_avoidance/sim_avoidance.egg-info/entry_points.txt
+writing requirements to ../../build/sim_avoidance/sim_avoidance.egg-info/requires.txt
+writing top-level names to ../../build/sim_avoidance/sim_avoidance.egg-info/top_level.txt
+reading manifest file '../../build/sim_avoidance/sim_avoidance.egg-info/SOURCES.txt'
+writing manifest file '../../build/sim_avoidance/sim_avoidance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shreya/ros2_ws/build/sim_avoidance/build
+creating /home/shreya/ros2_ws/build/sim_avoidance/build/lib
+creating /home/shreya/ros2_ws/build/sim_avoidance/build/lib/sim_avoidance
+copying sim_avoidance/sim_publisher.py -> /home/shreya/ros2_ws/build/sim_avoidance/build/lib/sim_avoidance
+copying sim_avoidance/__init__.py -> /home/shreya/ros2_ws/build/sim_avoidance/build/lib/sim_avoidance
+running install
+running install_lib
+creating /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance
+copying /home/shreya/ros2_ws/build/sim_avoidance/build/lib/sim_avoidance/sim_publisher.py -> /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance
+copying /home/shreya/ros2_ws/build/sim_avoidance/build/lib/sim_avoidance/__init__.py -> /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance
+byte-compiling /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance/sim_publisher.py to sim_publisher.cpython-310.pyc
+byte-compiling /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/sim_avoidance -> /home/shreya/ros2_ws/install/sim_avoidance/share/ament_index/resource_index/packages
+copying package.xml -> /home/shreya/ros2_ws/install/sim_avoidance/share/sim_avoidance
+running install_egg_info
+Copying ../../build/sim_avoidance/sim_avoidance.egg-info to /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sim_avoid script to /home/shreya/ros2_ws/install/sim_avoidance/lib/sim_avoidance
+writing list of installed files to '/home/shreya/ros2_ws/build/sim_avoidance/install.log'

@@ -1,0 +1,37 @@
+[0.750s] Invoking command in '/home/shreya/ros2_ws/src/arduino_comm': PYTHONPATH=/home/shreya/ros2_ws/build/arduino_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/arduino_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_comm build --build-base /home/shreya/ros2_ws/build/arduino_comm/build install --record /home/shreya/ros2_ws/build/arduino_comm/install.log --single-version-externally-managed install_data
+[0.913s] running egg_info
+[0.913s] creating ../../build/arduino_comm/arduino_comm.egg-info
+[0.914s] writing ../../build/arduino_comm/arduino_comm.egg-info/PKG-INFO
+[0.914s] writing dependency_links to ../../build/arduino_comm/arduino_comm.egg-info/dependency_links.txt
+[0.914s] writing entry points to ../../build/arduino_comm/arduino_comm.egg-info/entry_points.txt
+[0.914s] writing requirements to ../../build/arduino_comm/arduino_comm.egg-info/requires.txt
+[0.915s] writing top-level names to ../../build/arduino_comm/arduino_comm.egg-info/top_level.txt
+[0.915s] writing manifest file '../../build/arduino_comm/arduino_comm.egg-info/SOURCES.txt'
+[0.916s] reading manifest file '../../build/arduino_comm/arduino_comm.egg-info/SOURCES.txt'
+[0.925s] writing manifest file '../../build/arduino_comm/arduino_comm.egg-info/SOURCES.txt'
+[0.925s] running build
+[0.926s] running build_py
+[0.926s] creating /home/shreya/ros2_ws/build/arduino_comm/build
+[0.926s] creating /home/shreya/ros2_ws/build/arduino_comm/build/lib
+[0.926s] creating /home/shreya/ros2_ws/build/arduino_comm/build/lib/arduino_comm
+[0.926s] copying arduino_comm/__init__.py -> /home/shreya/ros2_ws/build/arduino_comm/build/lib/arduino_comm
+[0.926s] copying arduino_comm/arduino_serial_node.py -> /home/shreya/ros2_ws/build/arduino_comm/build/lib/arduino_comm
+[0.927s] running install
+[0.927s] running install_lib
+[0.928s] creating /home/shreya/ros2_ws/install/arduino_comm/lib/python3.10/site-packages/arduino_comm
+[0.928s] copying /home/shreya/ros2_ws/build/arduino_comm/build/lib/arduino_comm/__init__.py -> /home/shreya/ros2_ws/install/arduino_comm/lib/python3.10/site-packages/arduino_comm
+[0.928s] copying /home/shreya/ros2_ws/build/arduino_comm/build/lib/arduino_comm/arduino_serial_node.py -> /home/shreya/ros2_ws/install/arduino_comm/lib/python3.10/site-packages/arduino_comm
+[0.929s] byte-compiling /home/shreya/ros2_ws/install/arduino_comm/lib/python3.10/site-packages/arduino_comm/__init__.py to __init__.cpython-310.pyc
+[0.929s] byte-compiling /home/shreya/ros2_ws/install/arduino_comm/lib/python3.10/site-packages/arduino_comm/arduino_serial_node.py to arduino_serial_node.cpython-310.pyc
+[0.930s] running install_data
+[0.930s] creating /home/shreya/ros2_ws/install/arduino_comm/share/ament_index
+[0.930s] creating /home/shreya/ros2_ws/install/arduino_comm/share/ament_index/resource_index
+[0.930s] creating /home/shreya/ros2_ws/install/arduino_comm/share/ament_index/resource_index/packages
+[0.930s] copying resource/arduino_comm -> /home/shreya/ros2_ws/install/arduino_comm/share/ament_index/resource_index/packages
+[0.930s] copying package.xml -> /home/shreya/ros2_ws/install/arduino_comm/share/arduino_comm
+[0.932s] running install_egg_info
+[0.932s] Copying ../../build/arduino_comm/arduino_comm.egg-info to /home/shreya/ros2_ws/install/arduino_comm/lib/python3.10/site-packages/arduino_comm-0.0.0-py3.10.egg-info
+[0.933s] running install_scripts
+[0.957s] Installing arduino_serial_node script to /home/shreya/ros2_ws/install/arduino_comm/lib/arduino_comm
+[0.957s] writing list of installed files to '/home/shreya/ros2_ws/build/arduino_comm/install.log'
+[0.980s] Invoked command in '/home/shreya/ros2_ws/src/arduino_comm' returned '0': PYTHONPATH=/home/shreya/ros2_ws/build/arduino_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/arduino_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_comm build --build-base /home/shreya/ros2_ws/build/arduino_comm/build install --record /home/shreya/ros2_ws/build/arduino_comm/install.log --single-version-externally-managed install_data

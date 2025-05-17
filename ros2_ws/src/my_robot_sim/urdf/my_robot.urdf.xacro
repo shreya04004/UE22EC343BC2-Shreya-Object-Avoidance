@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="simple_bot">
+
+  <!-- Properties -->
+  <xacro:property name="wheel_radius" value="0.05"/>
+  <xacro:property name="wheel_separation" value="0.3"/>
+
+  <!-- Base link -->
+  <link name="base_link">
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0.05"/>
+      <inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0.0" ixz="0.0" iyz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.4 0.3 0.1"/>
+      </geometry>
+      <origin xyz="0 0 0.05"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.4 0.3 0.1"/>
+      </geometry>
+      <origin xyz="0 0 0.05"/>
+    </collision>
+  </link>
+
+  <!-- Laser link -->
+  <link name="laser">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0.05"/>
+      <inertia ixx="0.001" iyy="0.001" izz="0.001" ixy="0.0" ixz="0.0" iyz="0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder radius="0.02" length="0.1"/>
+      </geometry>
+      <origin xyz="0 0 0.1"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.02" length="0.1"/>
+      </geometry>
+      <origin xyz="0 0 0.1"/>
+    </collision>
+  </link>
+
+  <!-- Fixed joint for laser -->
+  <joint name="laser_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="laser"/>
+  </joint>
+
+  <!-- Gazebo plugin: Differential drive -->
+  <gazebo>
+    <plugin name="diff_drive_controller" filename="libgazebo_ros_diff_drive.so">
+      <ros>
+        <remapping>cmd_vel:=cmd_vel</remapping>
+        <remapping>odom:=odom</remapping>
+      </ros>
+      <update_rate>30.0</update_rate>
+      <left_wheel>base_link</left_wheel>  <!-- Placeholder -->
+      <right_wheel>base_link</right_wheel> <!-- Placeholder -->
+      <wheel_separation>${wheel_separation}</wheel_separation>
+      <wheel_diameter>${2 * wheel_radius}</wheel_diameter>
+      <command_topic>cmd_vel</command_topic>
+      <odometry_topic>odom</odometry_topic>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+    </plugin>
+  </gazebo>
+
+</robot>
+

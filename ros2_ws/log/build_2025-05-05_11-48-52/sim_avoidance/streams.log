@@ -1,0 +1,36 @@
+[0.433s] Invoking command in '/home/shreya/ros2_ws/build/sim_avoidance': PYTHONPATH=/home/shreya/ros2_ws/build/sim_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/shreya/ros2_ws/build/sim_avoidance/build
+[0.615s] running develop
+[0.717s] Removing /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim-avoidance.egg-link (link to .)
+[0.741s] Invoked command in '/home/shreya/ros2_ws/build/sim_avoidance' returned '0': PYTHONPATH=/home/shreya/ros2_ws/build/sim_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/shreya/ros2_ws/build/sim_avoidance/build
+[0.741s] Invoking command in '/home/shreya/ros2_ws/src/sim_avoidance': PYTHONPATH=/home/shreya/ros2_ws/build/sim_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_avoidance build --build-base /home/shreya/ros2_ws/build/sim_avoidance/build install --record /home/shreya/ros2_ws/build/sim_avoidance/install.log --single-version-externally-managed install_data --force
+[0.907s] running egg_info
+[0.907s] writing ../../build/sim_avoidance/sim_avoidance.egg-info/PKG-INFO
+[0.907s] writing dependency_links to ../../build/sim_avoidance/sim_avoidance.egg-info/dependency_links.txt
+[0.908s] writing entry points to ../../build/sim_avoidance/sim_avoidance.egg-info/entry_points.txt
+[0.908s] writing requirements to ../../build/sim_avoidance/sim_avoidance.egg-info/requires.txt
+[0.908s] writing top-level names to ../../build/sim_avoidance/sim_avoidance.egg-info/top_level.txt
+[0.911s] reading manifest file '../../build/sim_avoidance/sim_avoidance.egg-info/SOURCES.txt'
+[0.914s] writing manifest file '../../build/sim_avoidance/sim_avoidance.egg-info/SOURCES.txt'
+[0.916s] running build
+[0.916s] running build_py
+[0.916s] creating /home/shreya/ros2_ws/build/sim_avoidance/build
+[0.917s] creating /home/shreya/ros2_ws/build/sim_avoidance/build/lib
+[0.917s] creating /home/shreya/ros2_ws/build/sim_avoidance/build/lib/sim_avoidance
+[0.917s] copying sim_avoidance/sim_publisher.py -> /home/shreya/ros2_ws/build/sim_avoidance/build/lib/sim_avoidance
+[0.918s] copying sim_avoidance/__init__.py -> /home/shreya/ros2_ws/build/sim_avoidance/build/lib/sim_avoidance
+[0.918s] running install
+[0.919s] running install_lib
+[0.919s] creating /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance
+[0.919s] copying /home/shreya/ros2_ws/build/sim_avoidance/build/lib/sim_avoidance/sim_publisher.py -> /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance
+[0.920s] copying /home/shreya/ros2_ws/build/sim_avoidance/build/lib/sim_avoidance/__init__.py -> /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance
+[0.920s] byte-compiling /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance/sim_publisher.py to sim_publisher.cpython-310.pyc
+[0.921s] byte-compiling /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance/__init__.py to __init__.cpython-310.pyc
+[0.921s] running install_data
+[0.923s] copying resource/sim_avoidance -> /home/shreya/ros2_ws/install/sim_avoidance/share/ament_index/resource_index/packages
+[0.925s] copying package.xml -> /home/shreya/ros2_ws/install/sim_avoidance/share/sim_avoidance
+[0.925s] running install_egg_info
+[0.927s] Copying ../../build/sim_avoidance/sim_avoidance.egg-info to /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance-0.0.0-py3.10.egg-info
+[0.928s] running install_scripts
+[0.948s] Installing sim_avoid script to /home/shreya/ros2_ws/install/sim_avoidance/lib/sim_avoidance
+[0.949s] writing list of installed files to '/home/shreya/ros2_ws/build/sim_avoidance/install.log'
+[0.968s] Invoked command in '/home/shreya/ros2_ws/src/sim_avoidance' returned '0': PYTHONPATH=/home/shreya/ros2_ws/build/sim_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_avoidance build --build-base /home/shreya/ros2_ws/build/sim_avoidance/build install --record /home/shreya/ros2_ws/build/sim_avoidance/install.log --single-version-externally-managed install_data --force

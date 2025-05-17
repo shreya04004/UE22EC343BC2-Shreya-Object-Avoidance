@@ -1,0 +1,29 @@
+running develop
+Removing /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial-distance.egg-link (link to .)
+running egg_info
+writing ../../build/serial_distance/serial_distance.egg-info/PKG-INFO
+writing dependency_links to ../../build/serial_distance/serial_distance.egg-info/dependency_links.txt
+writing entry points to ../../build/serial_distance/serial_distance.egg-info/entry_points.txt
+writing requirements to ../../build/serial_distance/serial_distance.egg-info/requires.txt
+writing top-level names to ../../build/serial_distance/serial_distance.egg-info/top_level.txt
+reading manifest file '../../build/serial_distance/serial_distance.egg-info/SOURCES.txt'
+writing manifest file '../../build/serial_distance/serial_distance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shreya/ros2_ws/build/serial_distance/build
+creating /home/shreya/ros2_ws/build/serial_distance/build/lib
+creating /home/shreya/ros2_ws/build/serial_distance/build/lib/serial_distance
+copying serial_distance/distance_publisher.py -> /home/shreya/ros2_ws/build/serial_distance/build/lib/serial_distance
+copying serial_distance/__init__.py -> /home/shreya/ros2_ws/build/serial_distance/build/lib/serial_distance
+running install
+running install_lib
+creating /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance
+copying /home/shreya/ros2_ws/build/serial_distance/build/lib/serial_distance/distance_publisher.py -> /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance
+copying /home/shreya/ros2_ws/build/serial_distance/build/lib/serial_distance/__init__.py -> /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance
+byte-compiling /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance/distance_publisher.py to distance_publisher.cpython-310.pyc
+byte-compiling /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance/__init__.py to __init__.cpython-310.pyc
+running install_egg_info
+Copying ../../build/serial_distance/serial_distance.egg-info to /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance-0.0.0-py3.10.egg-info
+running install_scripts
+Installing distance_publisher script to /home/shreya/ros2_ws/install/serial_distance/lib/serial_distance
+writing list of installed files to '/home/shreya/ros2_ws/build/serial_distance/install.log'

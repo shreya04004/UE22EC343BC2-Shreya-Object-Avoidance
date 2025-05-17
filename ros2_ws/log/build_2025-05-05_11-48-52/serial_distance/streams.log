@@ -1,0 +1,33 @@
+[0.811s] Invoking command in '/home/shreya/ros2_ws/build/serial_distance': PYTHONPATH=/home/shreya/ros2_ws/build/serial_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/shreya/ros2_ws/build/serial_distance/build
+[1.011s] running develop
+[1.127s] Removing /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial-distance.egg-link (link to .)
+[1.152s] Invoked command in '/home/shreya/ros2_ws/build/serial_distance' returned '0': PYTHONPATH=/home/shreya/ros2_ws/build/serial_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/shreya/ros2_ws/build/serial_distance/build
+[1.155s] Invoking command in '/home/shreya/ros2_ws/src/serial_distance': PYTHONPATH=/home/shreya/ros2_ws/build/serial_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_distance build --build-base /home/shreya/ros2_ws/build/serial_distance/build install --record /home/shreya/ros2_ws/build/serial_distance/install.log --single-version-externally-managed
+[1.347s] running egg_info
+[1.350s] writing ../../build/serial_distance/serial_distance.egg-info/PKG-INFO
+[1.351s] writing dependency_links to ../../build/serial_distance/serial_distance.egg-info/dependency_links.txt
+[1.351s] writing entry points to ../../build/serial_distance/serial_distance.egg-info/entry_points.txt
+[1.352s] writing requirements to ../../build/serial_distance/serial_distance.egg-info/requires.txt
+[1.352s] writing top-level names to ../../build/serial_distance/serial_distance.egg-info/top_level.txt
+[1.358s] reading manifest file '../../build/serial_distance/serial_distance.egg-info/SOURCES.txt'
+[1.360s] writing manifest file '../../build/serial_distance/serial_distance.egg-info/SOURCES.txt'
+[1.361s] running build
+[1.361s] running build_py
+[1.361s] creating /home/shreya/ros2_ws/build/serial_distance/build
+[1.361s] creating /home/shreya/ros2_ws/build/serial_distance/build/lib
+[1.361s] creating /home/shreya/ros2_ws/build/serial_distance/build/lib/serial_distance
+[1.361s] copying serial_distance/distance_publisher.py -> /home/shreya/ros2_ws/build/serial_distance/build/lib/serial_distance
+[1.362s] copying serial_distance/__init__.py -> /home/shreya/ros2_ws/build/serial_distance/build/lib/serial_distance
+[1.362s] running install
+[1.362s] running install_lib
+[1.363s] creating /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance
+[1.363s] copying /home/shreya/ros2_ws/build/serial_distance/build/lib/serial_distance/distance_publisher.py -> /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance
+[1.363s] copying /home/shreya/ros2_ws/build/serial_distance/build/lib/serial_distance/__init__.py -> /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance
+[1.363s] byte-compiling /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance/distance_publisher.py to distance_publisher.cpython-310.pyc
+[1.364s] byte-compiling /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance/__init__.py to __init__.cpython-310.pyc
+[1.364s] running install_egg_info
+[1.373s] Copying ../../build/serial_distance/serial_distance.egg-info to /home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages/serial_distance-0.0.0-py3.10.egg-info
+[1.374s] running install_scripts
+[1.394s] Installing distance_publisher script to /home/shreya/ros2_ws/install/serial_distance/lib/serial_distance
+[1.395s] writing list of installed files to '/home/shreya/ros2_ws/build/serial_distance/install.log'
+[1.435s] Invoked command in '/home/shreya/ros2_ws/src/serial_distance' returned '0': PYTHONPATH=/home/shreya/ros2_ws/build/serial_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/serial_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/serial_distance build --build-base /home/shreya/ros2_ws/build/serial_distance/build install --record /home/shreya/ros2_ws/build/serial_distance/install.log --single-version-externally-managed

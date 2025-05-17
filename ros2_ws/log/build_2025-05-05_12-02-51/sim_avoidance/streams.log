@@ -1,0 +1,21 @@
+[0.492s] Invoking command in '/home/shreya/ros2_ws/src/sim_avoidance': PYTHONPATH=/home/shreya/ros2_ws/build/sim_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_avoidance build --build-base /home/shreya/ros2_ws/build/sim_avoidance/build install --record /home/shreya/ros2_ws/build/sim_avoidance/install.log --single-version-externally-managed install_data
+[0.636s] running egg_info
+[0.636s] writing ../../build/sim_avoidance/sim_avoidance.egg-info/PKG-INFO
+[0.638s] writing dependency_links to ../../build/sim_avoidance/sim_avoidance.egg-info/dependency_links.txt
+[0.638s] writing entry points to ../../build/sim_avoidance/sim_avoidance.egg-info/entry_points.txt
+[0.638s] writing requirements to ../../build/sim_avoidance/sim_avoidance.egg-info/requires.txt
+[0.638s] writing top-level names to ../../build/sim_avoidance/sim_avoidance.egg-info/top_level.txt
+[0.644s] reading manifest file '../../build/sim_avoidance/sim_avoidance.egg-info/SOURCES.txt'
+[0.644s] writing manifest file '../../build/sim_avoidance/sim_avoidance.egg-info/SOURCES.txt'
+[0.644s] running build
+[0.644s] running build_py
+[0.644s] running install
+[0.645s] running install_lib
+[0.646s] running install_data
+[0.646s] running install_egg_info
+[0.648s] removing '/home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance-0.0.0-py3.10.egg-info' (and everything under it)
+[0.648s] Copying ../../build/sim_avoidance/sim_avoidance.egg-info to /home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages/sim_avoidance-0.0.0-py3.10.egg-info
+[0.649s] running install_scripts
+[0.668s] Installing sim_avoid script to /home/shreya/ros2_ws/install/sim_avoidance/lib/sim_avoidance
+[0.669s] writing list of installed files to '/home/shreya/ros2_ws/build/sim_avoidance/install.log'
+[0.688s] Invoked command in '/home/shreya/ros2_ws/src/sim_avoidance' returned '0': PYTHONPATH=/home/shreya/ros2_ws/build/sim_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreya/ros2_ws/install/sim_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_avoidance build --build-base /home/shreya/ros2_ws/build/sim_avoidance/build install --record /home/shreya/ros2_ws/build/sim_avoidance/install.log --single-version-externally-managed install_data

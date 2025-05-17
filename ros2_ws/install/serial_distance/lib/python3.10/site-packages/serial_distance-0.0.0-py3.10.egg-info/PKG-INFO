@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: serial-distance
+Version: 0.0.0
+Summary: Publishes Arduino HC-SR04 distance over ROS2
+Home-page: UNKNOWN
+Maintainer: shreya
+Maintainer-email: shreya@example.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

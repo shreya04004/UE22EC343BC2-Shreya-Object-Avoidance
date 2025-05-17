@@ -1,0 +1,42 @@
+[0.044s] Invoking command in '/home/shreya/ros2_ws/build/object_avoidance': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shreya/ros2_ws/src/object_avoidance -DCMAKE_INSTALL_PREFIX=/home/shreya/ros2_ws/install/object_avoidance
+[0.357s] -- The C compiler identification is GNU 11.4.0
+[0.541s] -- The CXX compiler identification is GNU 11.4.0
+[0.565s] -- Detecting C compiler ABI info
+[0.663s] -- Detecting C compiler ABI info - done
+[0.669s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.670s] -- Detecting C compile features
+[0.672s] -- Detecting C compile features - done
+[0.679s] -- Detecting CXX compiler ABI info
+[0.810s] -- Detecting CXX compiler ABI info - done
+[0.813s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.813s] -- Detecting CXX compile features
+[0.813s] -- Detecting CXX compile features - done
+[0.842s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.996s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.167s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.267s] -- Added test 'lint_cmake' to check CMake code style
+[1.270s] -- Added test 'xmllint' to check XML markup files
+[1.273s] -- Configuring done
+[1.277s] -- Generating done
+[1.277s] -- Build files have been written to: /home/shreya/ros2_ws/build/object_avoidance
+[1.281s] Invoked command in '/home/shreya/ros2_ws/build/object_avoidance' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shreya/ros2_ws/src/object_avoidance -DCMAKE_INSTALL_PREFIX=/home/shreya/ros2_ws/install/object_avoidance
+[1.282s] Invoking command in '/home/shreya/ros2_ws/build/object_avoidance': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shreya/ros2_ws/build/object_avoidance -- -j2 -l2
+[1.367s] Invoked command in '/home/shreya/ros2_ws/build/object_avoidance' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shreya/ros2_ws/build/object_avoidance -- -j2 -l2
+[1.387s] Invoking command in '/home/shreya/ros2_ws/build/object_avoidance': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shreya/ros2_ws/build/object_avoidance
+[1.395s] -- Install configuration: ""
+[1.396s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/ament_index/resource_index/package_run_dependencies/object_avoidance
+[1.396s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/ament_index/resource_index/parent_prefix_path/object_avoidance
+[1.397s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/environment/ament_prefix_path.sh
+[1.397s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/environment/ament_prefix_path.dsv
+[1.397s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/environment/path.sh
+[1.397s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/environment/path.dsv
+[1.398s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/local_setup.bash
+[1.398s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/local_setup.sh
+[1.400s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/local_setup.zsh
+[1.400s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/local_setup.dsv
+[1.400s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/package.dsv
+[1.400s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/ament_index/resource_index/packages/object_avoidance
+[1.401s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/cmake/object_avoidanceConfig.cmake
+[1.401s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/cmake/object_avoidanceConfig-version.cmake
+[1.401s] -- Installing: /home/shreya/ros2_ws/install/object_avoidance/share/object_avoidance/package.xml
+[1.401s] Invoked command in '/home/shreya/ros2_ws/build/object_avoidance' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shreya/ros2_ws/build/object_avoidance
